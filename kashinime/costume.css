@@ -1,0 +1,82 @@
+iframe{
+	overflow: overlay;
+	position: absolute;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	height: 4470px;
+	right: 0px;
+}
+.ads{
+	width: 450px;
+	height: 80px;
+	background: #444;
+	margin: 10px;
+	opacity: 0.8;
+}
+.ads:hover{
+	opacity: 1;
+}
+
+iframe{
+	padding: 0px;
+	margin: 0px;
+	position: fixed;
+	top: 100px;
+	left: 0px;
+	border: 0px;
+	height: 100%;
+	position: fixed;
+}
+
+	
+.no-js #loader { display: none; }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: rgba(255, 255, 255, 0.3686274509803922);
+	/*display:none;*/
+}
+
+.loader {
+	border: 12px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 12px solid #3498db;
+	width: 120px;
+	height: 120px;
+	position: fixed;
+	top: 40%;
+	text-align: -webkit-center;
+	align-items: center;
+	-webkit-animation: spin 2s linear infinite;
+	animation: spin 2s linear infinite;
+}
+	
+.logoPosision{
+	position: fixed;
+	top: 50%;
+	left: 43%;
+	color: #34495e;
+	
+}
+.textLogo{
+	position: fixed;
+	top: 77.5%;
+	font-size: 22px;
+}
+	
+/* Safari */
+@-webkit-keyframes spin {
+	0% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
+}
+	
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
